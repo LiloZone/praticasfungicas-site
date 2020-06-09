@@ -1,0 +1,23 @@
+# Site
+title: Invetigações Práticas em Bioarte
+subtitle: Ciclo I
+
+# URL
+url: http://
+baseurl: /
+permalink: :title/
+include: ['_pages']
+
+# Build settings
+markdown: kramdown
+port: 4445
+future: true
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
