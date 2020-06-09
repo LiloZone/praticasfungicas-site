@@ -343,6 +343,11 @@ $(document).ready(function() {
 			loop: true,
 			typeSpeed: 200
 		});
+        jQuery("#rotatingEN").typed({
+			strings: ["Art", "Design", "Creation"],
+			loop: true,
+			typeSpeed: 200
+		});
 	}
 
 	initTextRotator2();
